@@ -62,6 +62,7 @@ const Contact = () => {
                 {socials.map((social, index) => {
                   return (
                     <a
+                      target='_blank'
                       href={social.href}
                       className='text-xs leading-loose tracking-widest uppercase md:text-sm hover:text-white/80 transition-colors duration-200'
                       key={index}
