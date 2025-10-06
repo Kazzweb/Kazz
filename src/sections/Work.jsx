@@ -117,50 +117,52 @@ const Work = () => {
               onMouseLeave={() => handleMouseLeave(index)}
             >
               {/* ovelay */}
-              <div
-                className='absolute inset-0 hidden lg:block duration-200 bg-black -z-10 clip-path'
-                ref={(el) => {
-                  overlayRefs.current[index] = el;
-                }}
-              />
-              {/* title */}
-              <div className='flex justify-between px-10 text-black transition-all duration-500 md:group-hover:text-white md:group-hover:px-12'>
-                <h2 className='lg:text-[32px] text-[26px] leading-none'>
-                  {project.name}
-                </h2>
-                <Icon
-                  icon='tabler:arrow-up-right'
-                  className='size-5 md:size-6'
+              <a href={project.href} target='_blank'>
+                <div
+                  className='absolute inset-0 hidden lg:block duration-200 bg-black -z-10 clip-path'
+                  ref={(el) => {
+                    overlayRefs.current[index] = el;
+                  }}
                 />
-              </div>
-              {/* divider */}
-              <div className='w-full h-0.5 bg-black opacity-80' />
-              {/* framework */}
-              <div className='flex px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12'>
-                {project.frameworks.map((framework) => {
-                  return (
-                    <p
-                      key={framework.id}
-                      className='text-black transition-colors duration-500 md:group-hover:text-white'
-                    >
-                      {framework.name}
-                    </p>
-                  );
-                })}
-              </div>
-              {/* mobile preview images */}
-              <div className='relative flex items-center justify-center px-10 md:hidden h-[400px]'>
-                <img
-                  src={project.bgImage}
-                  alt={`${project.name}-bg-image`}
-                  className='object-cover w-full h-full rounded-md brightness-50'
-                />
-                <img
-                  src={project.image}
-                  alt={`${project.name}-image`}
-                  className='absolute bg-center px-14 rounded-xl'
-                />
-              </div>
+                {/* title */}
+                <div className='flex justify-between px-10 text-black transition-all duration-500 md:group-hover:text-white md:group-hover:px-12'>
+                  <h2 className='lg:text-[32px] text-[26px] leading-none'>
+                    {project.name}
+                  </h2>
+                  <Icon
+                    icon='tabler:arrow-up-right'
+                    className='size-5 md:size-6'
+                  />
+                </div>
+                {/* divider */}
+                <div className='w-full h-0.5 bg-black opacity-80' />
+                {/* framework */}
+                <div className='flex px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12'>
+                  {project.frameworks.map((framework) => {
+                    return (
+                      <p
+                        key={framework.id}
+                        className='text-black transition-colors duration-500 md:group-hover:text-white'
+                      >
+                        {framework.name}
+                      </p>
+                    );
+                  })}
+                </div>
+                {/* mobile preview images */}
+                <div className='relative flex items-center justify-center px-10 md:hidden h-[400px]'>
+                  <img
+                    src={project.bgImage}
+                    alt={`${project.name}-bg-image`}
+                    className='object-cover w-full h-full rounded-md brightness-50'
+                  />
+                  <img
+                    src={project.image}
+                    alt={`${project.name}-image`}
+                    className='absolute bg-center px-14 rounded-xl'
+                  />
+                </div>
+              </a>
             </div>
           );
         })}
