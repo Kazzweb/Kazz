@@ -9,17 +9,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const imgRef = useRef(null);
-  const text = `Passionate about clean architecture
-  I build scalable, high-performance solutions from prototype to production`;
-  const aboutText = `Obsessed with building fast, intuitive
-   apps-from pixel-perfect React UIs to bulletproof serverless
-   backends. Every line of code is a promise: quality that users
-   feel.
-   When I'm not shipping:
-   ⚡Open-sourcing my latest experiment (or hacking on yours)
-  🎥 Teaching devs on Twitch/Youtube-because rising tides lift all ships
-  🧗‍♂️ Rock Climbing (problem-solving with real stakes)
-  🎸 Strumming chords while CI pipelines pass (multitasking at its finest)`;
+  const text = `Passionate about clean, thoughtful architecture — I build scalable, high-performance web experiences that balance design, motion, and reliability.`;
+
+  const aboutText = `I’m driven by the art of building fast, intuitive, and visually rich websites — from smooth, animated React interfaces to solid, serverless backends.  
+Every project is built with attention to detail, clean code, and real user impact.  
+
+When I’m not deep in code, I’m usually:  
+🧠 Experimenting with new tools and frameworks  
+🎮 Exploring interactive design and 3D concepts  
+🌍 Sketching ideas for my next creative build  
+☕ Recharging with good coffee and better ideas`;
 
   useGSAP(() => {
     gsap.to('#about', {
@@ -56,7 +55,7 @@ const About = () => {
       />
       <div className='flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide  lg:flex-row md:text-2xl lg:text-3xl text-white/60'>
         <img
-          src='images/man.jpg'
+          src='images/img.png'
           alt='man'
           className='w-md rounded-3xl'
           ref={imgRef}

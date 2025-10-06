@@ -42,7 +42,7 @@ const ServiceSummary = () => {
     <section className='mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive'>
       {/* Service 1 */}
       <div id='title-service-1'>
-        <p>Architecture</p>
+        <p>Experience Design</p>
       </div>
 
       {/* Service 2 */}
@@ -50,9 +50,9 @@ const ServiceSummary = () => {
         id='title-service-2'
         className='flex items-center justify-center gap-3 translate-x-8 md:translate-x-16'
       >
-        <p className='font-normal'>Development</p>
+        <p className='font-normal'>Motion</p>
         <div className='min-w-10 h-1 md:w-32 bg-gold'></div>
-        <p>Deployment</p>
+        <p>Interactivity</p>
       </div>
 
       {/* Service 3 */}
@@ -61,11 +61,11 @@ const ServiceSummary = () => {
         className='
           flex items-center justify-center gap-3'
       >
-        <p>APIs</p>
+        <p>Web Aesthetics</p>
         <div className='min-w-10 h-1 md:w-32 bg-gold'></div>
-        <p className='italic'>Frontends</p>
+        <p className='italic'>Visual Systems</p>
         <div className='min-w-10 h-1 md:w-32 bg-gold'></div>
-        <p>Scalability</p>
+        <p>3D Interfaces</p>
       </div>
 
       {/* Service 4 */}
@@ -73,7 +73,7 @@ const ServiceSummary = () => {
         id='title-service-4'
         className='translate-x-12 md:translate-x-24 lg:translate-x-48'
       >
-        <p>Databases</p>
+        <p>Frontend Craft</p>
       </div>
     </section>
   );
