@@ -114,7 +114,7 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'Karan Desai Architecture',
+    name: 'Karan Desai Architecture + Design',
     description:
       'A modern website for an architecture and design firm, showcasing elegant projects with a focus on clean layouts, visual storytelling, and interactive design elements.',
     href: 'https://karandesai.in',
