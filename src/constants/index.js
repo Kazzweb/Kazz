@@ -92,7 +92,6 @@ export const projects = [
       { id: 2, name: 'MongoDB' },
       { id: 3, name: 'Tailwind CSS' },
       { id: 4, name: 'Three.js' },
-      { id: 5, name: 'shadcn/ui' },
     ],
   },
 
@@ -105,7 +104,6 @@ export const projects = [
     image: '/works/thevault.png',
     bgImage: '/works/thevaultbg.png',
     frameworks: [
-      { id: 1, name: 'React' },
       { id: 2, name: 'Next.js' },
       { id: 3, name: 'Three.js' },
       { id: 4, name: 'GSAP' },
