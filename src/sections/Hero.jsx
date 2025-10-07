@@ -80,6 +80,7 @@ const Hero = () => {
         <Canvas
           shadows
           camera={{ position: [0, 0, -10], fov: 17.5, near: 1, far: 20 }}
+          performance={{ min: 0.3 }}
         >
           <ambientLight intensity={0.5} />
           <Environment resolution={isMobile ? 64 : 256}>
