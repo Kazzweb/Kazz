@@ -111,7 +111,7 @@ const Hero = () => {
             </group>
           </Environment>
           <Float speed={0.5}>
-            <Planet scale={isMobile ? 0.7 : 1} />
+            <Planet scale={isMobile ? 0.5 : 1} />
           </Float>
         </Canvas>
       </figure>
