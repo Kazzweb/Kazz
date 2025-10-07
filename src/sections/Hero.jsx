@@ -82,7 +82,6 @@ const Hero = () => {
           camera={{ position: [0, 0, -10], fov: 17.5, near: 1, far: 20 }}
           gl={{ antialias: !isMobile }}
           dpr={isMobile ? [1, 1.4] : [1, 2]}
-          frameloop={isMobile ? 'demand' : 'always'}
         >
           <ambientLight intensity={0.5} />
           <Environment resolution={isMobile ? 64 : 256}>
