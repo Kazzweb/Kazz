@@ -69,7 +69,7 @@ const Hero = () => {
       </div> */}
       <AnimatedHeaderSection
         text={aboutText}
-        subtitle={'404 bugs not found'}
+        subtitle={'Premium Web Design Agency'}
         title={'Kazz Web Studio'}
         textColor={'text-black'}
         tag='h1'
