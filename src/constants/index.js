@@ -3,7 +3,7 @@ export const servicesData = [
   {
     title: 'Interactive Websites',
     description:
-      'I design and develop immersive, visually rich websites that blend modern design with smooth motion and interactivity — creating experiences users actually remember.',
+      'We design and develop immersive, visually rich websites that blend modern design with smooth motion and interactivity — creating experiences users actually remember.',
     items: [
       {
         title: 'Frontend Development',
@@ -22,7 +22,7 @@ export const servicesData = [
   {
     title: 'Full-Stack Development',
     description:
-      'I build complete web applications with powerful backends, secure authentication, and seamless integrations — ensuring everything works fast and feels effortless.',
+      'We build complete web applications with powerful backends, secure authentication, and seamless integrations — ensuring everything works fast and feels effortless.',
     items: [
       {
         title: 'Backend Logic',
@@ -41,7 +41,7 @@ export const servicesData = [
   {
     title: 'No-Code & CMS Platforms',
     description:
-      'I also create websites using tools like Webflow, WordPress, and Wix — perfect for brands that need stunning, responsive sites without heavy codebases.',
+      'We also create websites using tools like Webflow, WordPress, and Wix — perfect for brands that need stunning, responsive sites without heavy codebases.',
     items: [
       {
         title: 'Webflow Development',
@@ -60,7 +60,7 @@ export const servicesData = [
   {
     title: 'Web Applications',
     description:
-      'From interactive portfolios to complete eCommerce systems, I create fast, reliable web apps with intuitive design, functional depth, and smooth user flow.',
+      'From interactive portfolios to complete eCommerce systems, We create fast, reliable web apps with intuitive design, functional depth, and smooth user flow.',
     items: [
       {
         title: 'E-Commerce',
@@ -168,7 +168,7 @@ export const projects = [
   },
 ];
 export const socials = [
-  { name: 'Instagram', href: 'https://www.instagram.com/tis_pankazz/' },
+  { name: 'Instagram', href: 'https://www.instagram.com/kazzwebs/' },
   {
     name: 'Fiverr',
     href: 'https://www.fiverr.com/s/R75mvPV',
@@ -177,5 +177,5 @@ export const socials = [
     name: 'LinkedIn',
     href: 'https://www.linkedin.com/in/pankaj-gaikwad-39b019241/',
   },
-  { name: 'GitHub', href: 'https://github.com/PankajGaikwad5' },
+  // { name: 'GitHub', href: 'https://github.com/PankajGaikwad5' },
 ];

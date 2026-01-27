@@ -9,12 +9,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
   const imgRef = useRef(null);
-  const text = `Passionate about clean, thoughtful architecture — I build scalable, high-performance web experiences that balance design, motion, and reliability.`;
+  const text = `Passionate about clean, thoughtful architecture — We build scalable, high-performance web experiences that balance design, motion, and reliability.`;
 
-  const aboutText = `I’m driven by the art of building fast, intuitive, and visually rich websites — from smooth, animated React interfaces to solid, serverless backends.  
+  const aboutText = `We’re driven by the art of building fast, intuitive, and visually rich websites — from smooth, animated React interfaces to solid, serverless backends.  
 Every project is built with attention to detail, clean code, and real user impact.  
 
-When I’m not deep in code, I’m usually:  
+
+
 🧠 Experimenting with new tools and frameworks  
 🎮 Exploring interactive design and 3D concepts  
 🌍 Sketching ideas for my next creative build  
@@ -55,8 +56,8 @@ When I’m not deep in code, I’m usually:
       />
       <div className='flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide  lg:flex-row md:text-2xl lg:text-3xl text-white/60'>
         <img
-          src='images/img.png'
-          alt='man'
+          src='/kazzlogo.jpeg'
+          alt='kazzstudio'
           className='w-md rounded-3xl'
           ref={imgRef}
         />

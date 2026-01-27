@@ -12,11 +12,12 @@ const AnimatedHeaderSection = ({
   text,
   textColor,
   withSrollTriggerr = false,
+  tag: Tag = 'h2',
 }) => {
   const contextRef = useRef(null);
   const headerRef = useRef(null);
 
-  const aboutText = `I help growing brands and startups gain an
+  const aboutText = `We help growing brands and startups gain an
    unfair advantage through premium
     results driven webs/apps`;
 
@@ -35,7 +36,7 @@ const AnimatedHeaderSection = ({
         duration: 1,
         ease: 'circ.out',
       },
-      '<+0.2'
+      '<+0.2',
     );
   }, []);
   return (
@@ -54,11 +55,11 @@ const AnimatedHeaderSection = ({
             {subtitle}
           </p>
           <div className='px-2 md:px-10 '>
-            <h1
+            <Tag
               className={`flex text-2xl md:text-5xl flex-col flex-wrap gap-12 ${textColor} uppercase banner-text-responsive leading-4 md:leading-8 sm:gap-16 md:block `}
             >
               {title}
-            </h1>
+            </Tag>
           </div>
         </div>
       </div>

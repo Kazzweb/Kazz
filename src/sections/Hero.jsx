@@ -15,7 +15,7 @@ const Hero = () => {
   const contextRef = useRef(null);
   const headerRef = useRef(null);
 
-  const aboutText = `I help growing brands and startups gain an
+  const aboutText = `We help growing brands and startups gain an
    unfair advantage through premium
     results driven webs/apps`;
 
@@ -70,8 +70,9 @@ const Hero = () => {
       <AnimatedHeaderSection
         text={aboutText}
         subtitle={'404 bugs not found'}
-        title={'Pankaj Gaikwad'}
+        title={'Kazz Web Studio'}
         textColor={'text-black'}
+        tag='h1'
       />
       <figure
         className='absolute inset-0 -z-50'

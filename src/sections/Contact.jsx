@@ -6,13 +6,13 @@ import gsap from 'gsap';
 
 const Contact = () => {
   const items = [
-    'just imagine, I code',
-    'just imagine, I code',
-    'just imagine, I code',
-    'just imagine, I code',
+    'just imagine, We code',
+    'just imagine, We code',
+    'just imagine, We code',
+    'just imagine, We code',
   ];
   const text = `Got a question, how or project Idea?
-  I'd love to hear from you and discuss further!`;
+  We'd love to hear from you and discuss further!`;
   useGSAP(() => {
     gsap.from('.social-link', {
       y: 100,
@@ -33,7 +33,7 @@ const Contact = () => {
     >
       <div>
         <AnimatedHeaderSection
-          subtitle={'You Dream It, I Code it'}
+          subtitle={'You Dream It, We Code it'}
           title={'Contact'}
           text={text}
           textColor={'text-white'}
@@ -45,7 +45,7 @@ const Contact = () => {
               <h2>E-mail</h2>
               <div className='w-full h-px my-2 bg-white opacity-30' />
               <p className='text-xl tracking-wider lowercase md:text-2xl lg:text-3xl'>
-                pankaj78123@gmail.com
+                kazzwebstudio@gmail.com
               </p>
             </div>
             <div className='social-link'>
