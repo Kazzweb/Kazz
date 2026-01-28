@@ -8,7 +8,7 @@ import { ScrollTrigger } from 'gsap/all';
 gsap.registerPlugin(ScrollTrigger);
 
 const Services = () => {
-  const text = `I build secure, high-performance full-stack apps
+  const text = `We build secure, high-performance full-stack apps
    with smoothUX to drive growth 
    not headaches.`;
 
