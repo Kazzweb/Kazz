@@ -1,4 +1,27 @@
+# Kazzwebstudio - Web Design Agency Santacruz, Mumbai
+# Allow all search engines to crawl
+
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
 
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Sitemap location
 Sitemap: https://kazzwebstudio.site/sitemap.xml
