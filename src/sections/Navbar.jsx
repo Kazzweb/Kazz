@@ -35,7 +35,7 @@ const Navbar = () => {
           duration: 0.5,
           ease: 'power2.out',
         },
-        '<'
+        '<',
       )
       .to(
         contactRef.current,
@@ -45,7 +45,7 @@ const Navbar = () => {
           duration: 0.5,
           ease: 'power2.out',
         },
-        '<+0.2'
+        '<+0.2',
       );
     iconTl.current = gsap
       .timeline({ paused: true })
@@ -63,7 +63,7 @@ const Navbar = () => {
           duration: 0.3,
           ease: 'power2.inOut',
         },
-        '<'
+        '<',
       );
   }, []);
 
@@ -116,7 +116,7 @@ const Navbar = () => {
                   </Link>
                 </div>
               );
-            }
+            },
           )}
         </div>
         <div
@@ -126,7 +126,7 @@ const Navbar = () => {
           <div className='font-light'>
             <p className='tracking-wider text-white/50 '>E-mail</p>
             <p className='2xl:text-xl tracking-widest lowercase text-pretty'>
-              Pankaj78123@gmail.com
+              kazzwebstudio@gmail.com
             </p>
           </div>
           <div className='font-light'>
