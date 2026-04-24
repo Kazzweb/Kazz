@@ -16,6 +16,26 @@ User-agent: Bingbot
 Allow: /
 Crawl-delay: 0
 
+# Specific rules for Brave Search
+User-agent: BraveBot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Yandex
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Apple
+User-agent: Applebot
+Allow: /
+Crawl-delay: 0
+
 # Block bad bots
 User-agent: AhrefsBot
 Crawl-delay: 10
