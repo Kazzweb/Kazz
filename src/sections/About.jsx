@@ -56,7 +56,7 @@ Every project is built with attention to detail, clean code, and real user impac
       />
       <div className='flex flex-col items-center justify-between gap-16 px-10 pb-16 text-xl font-light tracking-wide  lg:flex-row md:text-2xl lg:text-3xl text-white/60'>
         <img
-          src='/kazzlogo.jpeg'
+          src='/kazz.jpeg'
           alt='kazzstudio'
           className='w-md rounded-3xl'
           ref={imgRef}
