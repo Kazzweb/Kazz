@@ -154,6 +154,19 @@ export const projects = [
     ],
   },
   {
+    id: 7,
+    name: 'Repuline Media',
+    description:
+      'Repuline Media is a website for a media company, showcasing their work and services with a clean and modern interface.',
+    href: 'https://www.repuline.com/',
+    image: '/works/repuline.png',
+    bgImage: '/works/repuline.png',
+    frameworks: [
+      { id: 1, name: 'Next.js' },
+      { id: 2, name: 'GSAP' },
+    ],
+  },
+  {
     id: 6,
     name: 'Personal Portfolio (Old)',
     description:
