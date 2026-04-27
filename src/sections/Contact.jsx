@@ -44,16 +44,24 @@ const Contact = () => {
             <div className='social-link'>
               <h2>E-mail</h2>
               <div className='w-full h-px my-2 bg-white opacity-30' />
-              <p className='text-xl tracking-wider lowercase md:text-2xl lg:text-3xl'>
+              <a
+                href='mailto:kazzwebstudio@gmail.com'
+                onClick={() => window.gtag?.('event', 'conversion', { send_to: 'AW-18121042899/Q7KdCNDD6qIcENPX5MBD' })}
+                className='text-xl tracking-wider lowercase md:text-2xl lg:text-3xl hover:text-white/80 transition-colors duration-200'
+              >
                 kazzwebstudio@gmail.com
-              </p>
+              </a>
             </div>
             <div className='social-link'>
               <h2>Phone</h2>
               <div className='w-full h-px my-2 bg-white opacity-30' />
-              <p className='text-xl tracking-wider lowercase md:text-2xl lg:text-3xl'>
+              <a
+                href='tel:+919221968131'
+                onClick={() => window.gtag?.('event', 'conversion', { send_to: 'AW-18121042899/Q7KdCNDD6qIcENPX5MBD' })}
+                className='text-xl tracking-wider lowercase md:text-2xl lg:text-3xl hover:text-white/80 transition-colors duration-200'
+              >
                 +91 9221968131
-              </p>
+              </a>
             </div>
             <div className='social-link'>
               <h2>Social Media</h2>
